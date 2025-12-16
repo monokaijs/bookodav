@@ -21,3 +21,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           wranglerVersion: "3.111.0"
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ac6659484b21f47183c798c12f9e37d3
