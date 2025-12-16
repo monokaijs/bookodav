@@ -10,7 +10,8 @@
   "observability": {
     "enabled": true
   },
-   "r2_buckets": [
+  "account_id": "ac6659484b21f47183c798c12f9e37d3",
+  "r2_buckets": [
     {
       "binding": "MY_BUCKET", // Name of the binding in your worker
       "bucket_name": "bookodav" // Name of your R2 bucket
